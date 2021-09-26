@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 150px;
+  width: 100%;
+  padding: 3rem;
+  background: #fff;
+  z-index: 1;
+}
+#navbar .logo {
+  width: fit-content;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+#navbar .logo h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.55rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#navbar .nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#navbar .nav-list li {
+  margin: 0 5rem;
+}
+#navbar .nav-list li .nav-link {
+  letter-spacing: 3px;
+  padding: 0;
+  color: #000;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#welcome-section .heading {
+  text-align: center;
+}
+#welcome-section .heading h1 {
+  margin-bottom: 0.25rem;
+  letter-spacing: 3px;
+}
+#welcome-section .heading h4 {
+  letter-spacing: 3px;
+}
+
+#projects {
+  margin-bottom: 5rem;
+}
+#projects .heading {
+  padding: 3rem;
+  text-align: center;
+}
+#projects .heading h1 {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+#projects .project-title {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: table;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+#projects .project-title .display-t {
+  display: table-cell;
+  vertical-align: middle;
+  height: 400px;
+  position: relative;
+  z-index: 0;
+}
+#projects .project-title .display-t .project-name {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: #000;
+  -webkit-box-shadow: 0 2px 49px -4px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0 2px 49px -4px rgba(0, 0, 0, 0.21);
+  -ms-box-shadow: 0 2px 49px -4px rgba(0, 0, 0, 0.21);
+  -o-box-shadow: 0 2px 49px -4px rgba(0, 0, 0, 0.21);
+  box-shadow: 0 2px 49px -4px rgba(0, 0, 0, 0.21);
+  z-index: 1;
+}
+#projects .project-title .display-t .project-name h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+#contact {
+  margin-bottom: 5rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact .heading {
+  text-align: center;
+  padding: 3rem;
+}
+#contact .heading h1 {
+  letter-spacing: 3px;
+}
+#contact .heading p {
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+}
+#contact .social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#contact .social a {
+  text-decoration: none;
+  color: #000;
+}
+#contact .social a i {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 0.25rem;
+}
+#contact .social a span {
+  letter-spacing: 3px;
+}
+#contact .disclaimer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  #navbar .nav-list li {
+    margin: 0 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
